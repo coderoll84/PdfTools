@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Rpt_Abst_RS" targetNamespace="http://tempuri.org/Rpt_Abst_RS.xsd" xmlns:mstns="http://tempuri.org/Rpt_Abst_RS.xsd" xmlns="http://tempuri.org/Rpt_Abst_RS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Rpt_Abst_RS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="Rpt_Abst_RS" msprop:Generator_DataSetName="Rpt_Abst_RS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Rpt_Abst_RS" msprop:Generator_RowEvHandlerName="Rpt_Abst_RSRowChangeEventHandler" msprop:Generator_RowDeletedName="Rpt_Abst_RSRowDeleted" msprop:Generator_RowDeletingName="Rpt_Abst_RSRowDeleting" msprop:Generator_RowEvArgName="Rpt_Abst_RSRowChangeEvent" msprop:Generator_TablePropName="_Rpt_Abst_RS" msprop:Generator_RowChangedName="Rpt_Abst_RSRowChanged" msprop:Generator_RowChangingName="Rpt_Abst_RSRowChanging" msprop:Generator_TableClassName="Rpt_Abst_RSDataTable" msprop:Generator_RowClassName="Rpt_Abst_RSRow" msprop:Generator_TableVarName="tableRpt_Abst_RS" msprop:Generator_UserTableName="Rpt_Abst_RS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cabecera_grupo" msprop:Generator_ColumnPropNameInRow="Cabecera_grupo" msprop:Generator_ColumnPropNameInTable="Cabecera_grupoColumn" msprop:Generator_ColumnVarNameInTable="columnCabecera_grupo" msprop:Generator_UserColumnName="Cabecera_grupo" type="xs:string" minOccurs="0" />
+              <xs:element name="Numero_Cuenta" msprop:Generator_ColumnPropNameInRow="Numero_Cuenta" msprop:Generator_ColumnPropNameInTable="Numero_CuentaColumn" msprop:Generator_ColumnVarNameInTable="columnNumero_Cuenta" msprop:Generator_UserColumnName="Numero_Cuenta" type="xs:string" minOccurs="0" />
+              <xs:element name="Descripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_UserColumnName="Descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="Saldo_Inicial" msprop:Generator_ColumnPropNameInRow="Saldo_Inicial" msprop:Generator_ColumnPropNameInTable="Saldo_InicialColumn" msprop:Generator_ColumnVarNameInTable="columnSaldo_Inicial" msprop:Generator_UserColumnName="Saldo_Inicial" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Cargos_mes" msprop:Generator_ColumnPropNameInRow="Cargos_mes" msprop:Generator_ColumnPropNameInTable="Cargos_mesColumn" msprop:Generator_ColumnVarNameInTable="columnCargos_mes" msprop:Generator_UserColumnName="Cargos_mes" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Abono_mes" msprop:Generator_ColumnPropNameInRow="Abono_mes" msprop:Generator_ColumnPropNameInTable="Abono_mesColumn" msprop:Generator_ColumnVarNameInTable="columnAbono_mes" msprop:Generator_UserColumnName="Abono_mes" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Saldo_Final" msprop:Generator_ColumnPropNameInRow="Saldo_Final" msprop:Generator_ColumnPropNameInTable="Saldo_FinalColumn" msprop:Generator_ColumnVarNameInTable="columnSaldo_Final" msprop:Generator_UserColumnName="Saldo_Final" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Compania" msprop:Generator_ColumnPropNameInRow="Compania" msprop:Generator_ColumnPropNameInTable="CompaniaColumn" msprop:Generator_ColumnVarNameInTable="columnCompania" msprop:Generator_UserColumnName="Compania" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaInicial" msprop:Generator_ColumnPropNameInRow="FechaInicial" msprop:Generator_ColumnPropNameInTable="FechaInicialColumn" msprop:Generator_ColumnVarNameInTable="columnFechaInicial" msprop:Generator_UserColumnName="FechaInicial" type="xs:string" minOccurs="0" />
+              <xs:element name="Grupo" msprop:Generator_ColumnPropNameInRow="Grupo" msprop:Generator_ColumnPropNameInTable="GrupoColumn" msprop:Generator_ColumnVarNameInTable="columnGrupo" msprop:Generator_UserColumnName="Grupo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
